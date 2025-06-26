@@ -33,3 +33,6 @@ $content .= "</table>";
 
 // Carrega o template HTML
 require_once('template.php');
+
+// Fecha a conexão com o banco de dados
+mysqli_close($conexao);
