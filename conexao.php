@@ -2,9 +2,9 @@
 
 $host = "localhost";
 $user = "root";
-$pass = "";
+$pass = "20231035000041";
 $bd   = "loja";
 
-$conexao = mysqli_connect($host, $user, $pass, $bd);
+$conn = mysqli_connect($host, $user, $pass, $bd);
 
-if (!$conexao) die("Erro de conexão: ". mysqli_connect_error());
+if (!$conn) die("Erro de conexão: ". mysqli_connect_error());
